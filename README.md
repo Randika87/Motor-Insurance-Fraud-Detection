@@ -1,38 +1,12 @@
 # Motor-Insurance-Fraud-Detection
-Machine Learning Approaches to Detect Motor Insurance Fraud Claims.
+Insurance companies are one of the most important components of the financial sector for any country. One of the main challenges faced by insurance companies in current market environment are the fraud claims, especially in motor insurance domain. The number of fraud claims are expected to increase in the future, since claim counts are also increasing. Therefore, many researchers in the motor insurance field around the world are trying to find methods on detecting fraudulent claims as early by using machine learning algorithms. Motor claims fraud detection is a complex task since the fraud behavior different for each claim and the detected fraud cases are much low compared to the normal claims. This project aims to develop a motor insurance fraud detection model using classification algorithms and proposed a best model by using some evaluation criteria’s.  Dataset contains 30098 claims and out of these claims 3112 claims are labeled as fraudulent.  Dataset is imbalanced since fraud claims also known as positive cases only accounts 10% of total cases.  Past claim data are analyzed with underwriting details. Artificial Neural Network, Random Forest and   XGBoost algorithms are used as the classifiers to detect a claim is fraudulent or not. 
 
 **Data Set**
-Motor claim dataset with 33,100 records which comprise 19 features and 1 target variable.
 
 
-**Attribute Name	    Type**
-ACCIDENT_TYPPE	    Claim Characteristic
-TOTAL_LOST	        Claim Characteristic
-ACCIDENT_MONTH	    Policy Characteristic
-ACCIDENT_WEEK	      Claim Characteristic
-ACCIDENT_WEEK_DAY	  Claim Characteristic
-ACCIDENT_TIME	      Claim Characteristic
-CLAIM_MONTH	        Claim Characteristic
-CLAIM_WEEK	        Claim Characteristic
-CLAIM_WEEK_DAY	    Claim Characteristic
-CLAIM_TIME	        Claim Characteristic
-GAP_IN_DAYS	        Claim Characteristic
-ESTIMATED_AMOUNT	  Claim Characteristic
-VEHICLE_CATEGORY	  Policy Characteristic
-PURPOSE_OF_USE	    Policy Characteristic
-MAKE	              Policy Characteristic
-SUM_INSURED	        Policy Characteristic
-PREMIUM	            Policy Characteristic
-STATUS	            Policy Characteristic
-MONTHS_AS_CUSTOMER	Policy Characteristic
-FRAUD_OR_NOT	      Class Variable
+![image](https://user-images.githubusercontent.com/63593984/144794661-d31d2378-a739-43a7-a2b4-9570a2486c54.png)
 
 
-**Classification Algorithms**
-
-Random Forest
-XGBoost
-Neural Network
 
 **Architecture**
 
